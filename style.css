@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------------------------------NavBar-------------------------------------*/
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,white , rgb(0, 174, 255),white);
+}
+
+.navbar-brand img{
+    height:70px;
+    width: 90px;
+
+    padding: 0px 0px 0px 20px;
+}
+.navbar-toggler{
+    outline: none !important;
+
+}
+.carousel-item img{
+    height: 500px;
+    width: 400px;
+}
+
+a.nav-link{
+    text-shadow: 2px 2px 5px red;
+    font-size: 20px;
+}
+  a.nav-link:link {
+    background-color: yellow;
+  }
+  
+  a.nav-link:visited {
+    background-color: cyan;
+  }
+  
+  a.nav-link:hover {
+    background-color: lightgreen;
+  }
+  
+  a.nav-link:active {
+    background-color: hotpink;
+
+  } 
+
+  img.b{
+    height:400px;
+    width: 300px;
+  }
